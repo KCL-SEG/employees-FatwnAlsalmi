@@ -3,7 +3,7 @@
 
 
 class Employee:
-    def __init__(self, name, salary=0, hours=0, pHour=0, commission=0, bonus_commission=0, num_contracts=0):
+    def __init__(self, name, salary=0, hours=0, pHour=0, commission=0, bonus_commission=0, num_contracts=1):
         self.name = name
         self.salary = salary
         self.hours = hours
